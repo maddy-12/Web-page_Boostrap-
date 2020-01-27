@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Le blog de l'architecte</title>
+</head>
+
+<!-- Body -->
+
+<body>
+
+  <!-- NAVBAR ----------->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-around">
+    <div class="container">
+
+      <!-- LOGO ----------->
+      <a class="navbar-brand" href="#">Le blog de l'architecte</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- LINKS ----------->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item">
+            <a class="nav-link" href="#"> ACCUEIL <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              BLOG
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher sur le blog</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Carrousel -------------------------------------------------------->
+  <header>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="http://placeimg.com/1200/300/arch/4" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="http://placeimg.com/1200/300/arch/2" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Précedent</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Suivent</span>
+      </a>
+    </div>
+  </header>
+
+  <!--------------- Columns  ---------------------------------------------------------------------------->
+
+  <div class="container">
+    <!-- General row -->
+    <div class="row">
+      <!-- Left Column ----------------------------------------------------------------------------->
+      <div class="col-12 col-md-4 col-lg-3">
+        <!-- PROFIL  -->
+        <div class="d-flex flex-column justify-content-center align-items-center mt-5">
+          <img src="https://i.pravatar.cc/100/100" alt="" class="rounded-circle">
+          <p class="font-weight-bold">John Doe</p>
+          <p class="text-center font-italic">Diplomé de l'école d'architecture de Caen</p>
+
+          <button type="button" class="btn btn-info btn-lg p-2">Voir tous les articles</button>
+        </div>
+
+
+        <!-- LIST -->
+        <ul class="list-group mt-3">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Sous-catégorie 1
+            <span class="badge badge-secondary badge-pill">23</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Sous-catégorie 2
+            <span class="badge badge-secondary badge-pill">11</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Sous-catégorie 3
+            <span class="badge badge-secondary badge-pill">4</span>
+          </li>
+        </ul>
+      </div>
+
+
+
+      <!--Right Column ----------------------------------------------------------------------------->
+      <div class="col-12 col-md-8 col-lg-9 order-first order-md-last">
+        <!------------------- breadcrumb & title------>
+        <div class="row mt-5 ">
+          <div class="col-12">
+            <!-- title -->
+            <h1 class="font-weight-bold">ARTICLE-CATÉGORIE 1</h1>
+            <!-- BReadcrumbs -->
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Catégorie 1</li>
+              </ol>
+            </nav>
+          </div>
+
+        </div>
+
+        <!--------- ROW 1 ------------------------------------------------------------------------- -->
+        <div class="row">
+          <!----------------------------------------- 1st article -->
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="card shadow  mb-5 bg-white rounded">
+              <img src="http://placeimg.com/300/200/arch/9" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title mb-1">Titre de l'article</h3>
+                <span class="badge badge-secondary mb-1">Sous-catégorie</span>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Lire la suite</a>
+              </div>
+            </div>
+          </div>
+
+          <!------------------------------------------ 2nd Article -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="card shadow  mb-5 bg-white rounded">
+              <img src="http://placeimg.com/300/200/arch" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title mb-1">Titre de l'article</h3>
+                <span class="badge badge-secondary mb-1">Sous-catégorie</span>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Lire la suite</a>
+              </div>
+            </div>
+          </div>
+
+          <!----------------------------------------- 3rd article -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="card shadow  mb-5 bg-white rounded">
+              <img src="http://placeimg.com/300/200/arch/1" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title mb-1">Titre de l'article</h3>
+                <span class="badge badge-secondary mb-1">Sous-catégorie</span>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Lire la suite</a>
+              </div>
+            </div>
+          </div>
+
+
+
+        <!----------- ROW 2 ------------------------------------------------------------------------>
+
+          <!-------------------------------------- 1st article -->
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="card shadow  mb-5 bg-white rounded">
+              <img src="http://placeimg.com/300/200/arch/2" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title mb-1">Titre de l'article</h3>
+                <span class="badge badge-secondary mb-1">Sous-catégorie</span>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Lire la suite</a>
+              </div>
+            </div>
+          </div>
+
+          <!-------------------------------------- 2nd Article -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="card shadow  mb-5 bg-white rounded">
+              <img src="http://placeimg.com/300/200/arch/5" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title mb-1">Titre de l'article</h3>
+                <span class="badge badge-secondary mb-1">Sous-catégorie</span>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Lire la suite</a>
+              </div>
+            </div>
+          </div>
+
+          <!----------------------------3rd article -->
+
+          <div class="col-12 col-md-6 col-lg-4">
+
+            <div class="card shadow  mb-5 bg-white rounded">
+              <img src="http://placeimg.com/300/200/arch/4" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title mb-1">Titre de l'article</h3>
+                <span class="badge badge-secondary mb-1">Sous-catégorie</span>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Lire la suite</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-----------------ROW 3  ------------------------------------------------------------------------------->
+        <div class="row">
+          <div class="col">
+            <!-- FAQ --------------------------->
+            <h1 class="font-weight-bold">FAQ</h1>
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Collapsible Group Item #1
+                    </button>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                    tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings
+                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Collapsible Group Item #2
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                    tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings
+                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Collapsible Group Item #3
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                    tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings
+                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- footer ----------------------->
+  <footer class="bg-dark mt-5">
+    <div class="container text-light py-3">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6 text-md-left text-center">
+          <p class="text-light m-0"> © 2020 - Le blog de l'architecte </p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6 text-md-right text-center">
+          <a class="text-light m-0 "> Mentions légales - Confidentialité</a>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
